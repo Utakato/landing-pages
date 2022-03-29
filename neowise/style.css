@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Swisot2';
-    src: url('/assets/fonts/swisot2_bigfontsite.com.ttf');
+    src: url('./assets/fonts/swisot2_bigfontsite.com.ttf');
 }
 :root {
     --bg-color: #1c263c;
@@ -16,9 +16,105 @@
 
 body {
     font-family: var(--font-main);
-    color: var(--font-main);
+    color: var(--text-main);
 }
 
 section {
     background-color: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 15rem;
 }
+
+h1 {
+    padding: 3rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    padding-top:2rem;
+}
+
+/* Home START */
+
+.home {
+    padding: 0;
+}
+.home img{
+    width: 99vw;
+}
+
+/* Home END */
+
+/* Cyberspeeder START */
+
+.description {
+    font-family: var(--font-secondary);
+    font-weight: 900;
+}
+
+/* Cyberspeeder END */
+
+/* Specifications START */
+
+.specifications-list {
+    font-family: var(--font-secondary);
+    font-weight: 900;
+}
+
+/* Specifications END */
+
+/* Banner START */
+
+.banner-area {
+    background-color: var(--bg-color);
+}
+
+.banner-area img {
+    width: 99vw;
+}
+
+/* Banner END */
+
+
+/* Contact START */
+
+.contact {
+    padding-bottom: 10rem;
+}
+
+.contact-list {    
+    font-family: var(--font-secondary);
+    font-weight: 900;
+}
+
+/* Contact END */
+
+/* Menu START */
+
+nav {
+    position: fixed;
+}
+
+nav img {
+    width: 75%;
+}
+
+nav {
+    padding-left: 0.5rem;
+    font-size: 1.3rem;
+    font-family: var(--font-secondary);
+    font-weight: 900;
+}
+
+nav li span{
+    cursor: pointer;
+}
+/* Menu END */
