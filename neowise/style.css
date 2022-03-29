@@ -1,7 +1,12 @@
+@font-face {
+    font-family: 'Swisot2';
+    src: url('/assets/fonts/swisot2_bigfontsite.com.ttf');
+}
 :root {
     --bg-color: #1c263c;
     --text-main: #bdd9df;
     --font-main:'Special Elite', cursive;
+    --font-secondary: 'Swisot2';
 }
 
 * {
@@ -17,4 +22,3 @@ body {
 section {
     background-color: var(--bg-color);
 }
-
