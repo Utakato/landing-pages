@@ -60,6 +60,7 @@ li {
     font-family: var(--font-secondary);
     font-weight: 900;
     padding-bottom: 2rem;
+    line-height: 1.7;
 }
 
 /* Cyberspeeder END */
@@ -149,7 +150,6 @@ nav li span{
 .mobile-menu {
     position: relative;
     display: none;
-
 }
 
 .desktop-menu {
@@ -175,6 +175,7 @@ button.hamburger {
     all: unset;
     cursor:pointer;
 }
+
 button i {
     font-size: 4rem;
     color: var(--text-main);
@@ -192,12 +193,12 @@ button i {
 
 
 /* Responsive Styles */
+
 @media screen and (min-width:800px) {
     .mobile {
         display:none;
     }
 }
-
 
 @media only screen and (max-width:800px) {
     section {
@@ -211,6 +212,7 @@ button i {
     .specifications-list li {
         padding-top: 0.5rem;
     }
+    
     .cyberspeeder img {
         width: 99vw;
     }
