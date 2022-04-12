@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'minecraft-bold';
+    src: url('./assets/site_bompa/minecraft/Minecraft/Minecraft-Bold.otf');
+}
+
 :root {
     --clr-text-main: #d5c39b ;
     --clr-bg-main: #2d2926;
@@ -11,6 +16,7 @@
 body {
     background-color: var(--clr-bg-main);
     color: var(--clr-text-main);   
+    font-family: 'minecraft-bold';
 }
 
 ul {
