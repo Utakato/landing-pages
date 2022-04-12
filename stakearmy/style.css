@@ -134,9 +134,13 @@ button i {
 .show {
     display: block;
     position: fixed;
+    top: 0;
+    left: 0;
     z-index: 10;
     height:100vh;
+    width: 100vw;
     transition: height 0.4s ease;
+    overflow: hidden;
 }
 
 
@@ -192,7 +196,7 @@ button i {
 /* layout */
 
 .backdrop {
-    position: absolute;
+    position: fixed;
     left:0;
     top: 0;
     height:100vh;

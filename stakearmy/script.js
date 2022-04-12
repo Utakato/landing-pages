@@ -1,5 +1,6 @@
 const menuButtons = document.getElementsByClassName("menu-button")
 const menu = document.getElementsByTagName('nav')[0]
+const backdrop = document.getElementsByClassName('backdrop')[0]
 
 // Menu Scroll
 
@@ -10,6 +11,7 @@ for(i=0;i<menuButtons.length; i++) {
 
     button.addEventListener("click", () => {
         menu.classList.remove('show')
+        backdrop.classList.add('hide')        
         section[0].scrollIntoView({ 
             behavior: 'smooth' 
           })
@@ -30,7 +32,6 @@ let Responsive = () => {
 let toggleMenu = () => {
     const show = 'mobile-menu show'
     const hide = 'mobile-menu'
-    const backdrop = document.getElementsByClassName('backdrop')[0]
     
     if (menu.className == hide) {
         backdrop.className = 'backdrop'
